@@ -1,7 +1,9 @@
 [package]
 name = "hello_world"
 version = "0.0.0"
+edition = "2021"
 publish = false
 
 [dependencies]
-rocket = "0.4.10"
+rocket = "0.5"
+multipart = "0.17"
